@@ -10,5 +10,6 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TNavBar: typeof import('./src/components/TNavBar.vue')['default']
+    VanConfigProvider: typeof import('vant/es')['ConfigProvider']
   }
 }

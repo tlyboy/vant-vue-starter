@@ -7,6 +7,7 @@ import Components from 'unplugin-vue-components/vite'
 import VueRouter from 'unplugin-vue-router/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import Layouts from 'vite-plugin-vue-layouts'
+import { VantResolver } from '@vant/auto-import-resolver'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -27,7 +28,9 @@ export default defineConfig({
     UnoCSS(),
     VueRouter(),
     vue(),
-    Components(),
+    Components({
+      resolvers: [VantResolver()],
+    }),
     Layouts(),
   ],
   resolve: {

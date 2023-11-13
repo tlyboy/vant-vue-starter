@@ -1,3 +1,9 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <RouterView />
+  <van-config-provider :theme="isDark ? 'dark' : 'light'" h-full>
+    <RouterView />
+  </van-config-provider>
 </template>
