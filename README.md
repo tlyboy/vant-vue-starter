@@ -1,11 +1,11 @@
-# vant-vue-starter
+# my-app
 
-🚀 Vant Vue starter
+🎉 My App
 
 ## 使用说明
 
 ```sh
-npx degit tlyboy/vant-vue-starter my-new-project
+npx degit tlyboy/vant-vue-starter my-app
 ```
 
 ## 使用许可
