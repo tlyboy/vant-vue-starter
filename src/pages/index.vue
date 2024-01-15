@@ -9,7 +9,7 @@ definePage({
 <template>
   <div>
     <p>
-      🎉 My App
+      🚀 Vant Vue starter
     </p>
   </div>
 </template>
