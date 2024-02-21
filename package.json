@@ -12,7 +12,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@unocss/reset": "^0.58.5",
     "@vant/touch-emulator": "^1.4.0",
     "@vueuse/core": "^10.7.2",
     "nprogress": "^0.2.0",
