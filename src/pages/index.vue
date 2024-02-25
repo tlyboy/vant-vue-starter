@@ -8,8 +8,6 @@ definePage({
 
 <template>
   <div>
-    <p>
-      🚀 Vant Vue starter
-    </p>
+    <p>🚀 Vant Vue starter</p>
   </div>
 </template>
