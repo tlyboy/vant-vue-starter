@@ -1,5 +1,5 @@
 <template>
-  <van-config-provider :theme="isDark ? 'dark' : 'light'" h-full>
+  <van-config-provider class="h-full" :theme="isDark ? 'dark' : 'light'" >
     <RouterView />
   </van-config-provider>
 </template>
