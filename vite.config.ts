@@ -24,8 +24,8 @@ export default defineConfig({
     }),
     VueDevTools(),
     Components({
-      resolvers: [VantResolver()],
       dts: 'src/components.d.ts',
+      resolvers: [VantResolver()],
     }),
     Layouts(),
     AutoImport({
@@ -33,6 +33,7 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
       dirs: ['./src/utils', './src/stores', './src/composables'],
       vueTemplate: true,
+      resolvers: [VantResolver()],
     }),
   ],
   resolve: {
