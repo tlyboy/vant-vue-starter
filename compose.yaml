@@ -1,0 +1,6 @@
+services:
+  vant-vue-starter:
+    build: .
+    restart: unless-stopped
+    ports:
+      - '80:80'
