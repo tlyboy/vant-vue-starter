@@ -11,38 +11,37 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.17",
-    "@vant/touch-emulator": "^1.4.0",
-    "@vueuse/core": "^14.0.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vant/touch-emulator": "^1.5.0",
+    "@vueuse/core": "^14.1.0",
     "pinia": "^3.0.4",
     "pinia-plugin-persistedstate": "^4.7.1",
-    "tailwindcss": "^4.1.17",
-    "vant": "^4.9.21",
-    "vue": "^3.5.24",
-    "vue-router": "^4.6.3"
+    "tailwindcss": "^4.1.18",
+    "vant": "^4.9.22",
+    "vue": "^3.5.27",
+    "vue-router": "^5.0.0"
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.9.0",
-    "@iconify-json/carbon": "^1.2.14",
-    "@tsconfig/node22": "^22.0.3",
-    "@types/node": "^22.19.1",
+    "@iconify-json/carbon": "^1.2.18",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.10.9",
     "@vant/auto-import-resolver": "^1.3.0",
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue": "^6.0.3",
     "@vue/tsconfig": "^0.8.1",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.6.2",
-    "prettier-plugin-tailwindcss": "^0.7.1",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "~5.9.3",
     "unplugin-auto-import": "^19.3.0",
     "unplugin-vue-components": "^30.0.0",
-    "unplugin-vue-router": "^0.17.0",
     "vite": "npm:rolldown-vite@latest",
-    "vite-plugin-vue-devtools": "^8.0.3",
+    "vite-plugin-vue-devtools": "^8.0.5",
     "vite-plugin-vue-layouts": "^0.11.0",
-    "vue-tsc": "^3.1.3"
+    "vue-tsc": "^3.2.4"
   },
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.28.2",
   "engines": {
-    "node": ">=22"
+    "node": "24.x"
   }
 }
