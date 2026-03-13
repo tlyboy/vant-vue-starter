@@ -35,7 +35,7 @@
     "typescript": "~5.9.3",
     "unplugin-auto-import": "^19.3.0",
     "unplugin-vue-components": "^30.0.0",
-    "vite": "npm:rolldown-vite@latest",
+    "vite": "^8.0.0",
     "vite-plugin-vue-devtools": "^8.0.7",
     "vite-plugin-vue-layouts": "^0.11.0",
     "vue-tsc": "^3.2.5"
